@@ -16,3 +16,11 @@
 body{
     background-color: #ede7de;
 }
+.profilePic{
+    margin: auto;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 38rem;
+}
