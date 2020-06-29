@@ -60,8 +60,12 @@ h2{
 }
 
 /* middle-container */
-.middle-container{
+section{
+    margin:0;
+    padding:0;
     background-color: #ffffff;
+}
+.middle-container{
     text-align: center;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -81,3 +85,33 @@ h2{
 .contectBtn{
     margin-top: 2%;
 }
+
+
+/* bottom container */
+.bottom-container {
+    background-color:  #84CBFF;
+    width:100%;
+    margin: 0;
+    padding:0;
+    height: 100px;
+  }
+
+  .footer-link{
+    color: #4A90E2;
+     font-size: larger;
+    margin: 50px 50px 50px 50px;
+  }
+  
+  .links{
+    margin: 50px 0 0 0;
+    padding-top: 25px;
+    text-align: center;
+  }
+  
+  .copy-right{
+    color: #EAF6F6;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
