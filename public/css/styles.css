@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+    color: #5a5a5a;
 }
 .container-fluid{
     margin: 0;
@@ -114,4 +115,35 @@ section{
     margin-top: 4%;
     margin-bottom: 5%;
     text-align: center;
+  }
+
+  /* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 0; /* Space out the Bootstrap <hr> more */
+    padding: 0;
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  .featurette{
+      text-align: center;
+      align-items: center;
+  }
+  .lead{
+      bottom: 0;
+  }
+  
+  .projectsSection{
+      background-color: #ffffff;
+  }
+
+  .featurette-image{
+      height: 400px;
+      width: 400px;
   }
