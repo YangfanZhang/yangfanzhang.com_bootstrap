@@ -130,13 +130,14 @@ section{
     font-weight: 300;
     line-height: 1;
     letter-spacing: -.05rem;
+    color: #5a5a5a;
   }
   .featurette{
       text-align: center;
       align-items: center;
   }
   .lead{
-      bottom: 0;
+    padding: 0 40px 0 40px;
   }
   
   .projectsSection{
@@ -146,4 +147,8 @@ section{
   .featurette-image{
       height: 400px;
       width: 400px;
+  }
+
+  a{
+    color: #5a5a5a;
   }
